@@ -1,11 +1,25 @@
 {
   "name": "dah",
+  "description": "dah",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "author": "Nathan Felix <natholas@gmail.com>",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "",
+    "build": ""
   },
-  "author": "",
-  "license": "UNLICENCED"
+  "dependencies": {
+    "angular": "^1.6.2",
+    "angular-route": "^1.6.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  }
 }
